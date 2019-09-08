@@ -7,6 +7,16 @@ zuul:
   routes:
     sysmanage.serviceId: hrm-systemmanagement-service
     sysmanage.path: /sysmanage/**
+    course.serviceId: hrm-course-service
+    course.path: /course/**
+    fastdfs.serviceId: hrm-fastdfs-service
+    fastdfs.path: /fastdfs/**
+    es.serviceId: hrm-es-service
+    es.path: /es/**
+    redis.serviceId: hrm-redis-service
+    redis.path: /redis/**
+    page.serviceId: hrm-page-service
+    page.path: /page/**
   ignored-services: "*"
   prefix: "/services"
   retryable: true

@@ -17,6 +17,8 @@ zuul:
     redis.path: /redis/**
     page.serviceId: hrm-page-service
     page.path: /page/**
+    pageAgent.serviceId: hrm-pageagent-service
+    pageAgent.path: /pageAgent/**
   ignored-services: "*"
   prefix: "/services"
   retryable: true

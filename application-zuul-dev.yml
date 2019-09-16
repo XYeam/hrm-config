@@ -19,6 +19,8 @@ zuul:
     page.path: /page/**
     pageAgent.serviceId: hrm-pageagent-service
     pageAgent.path: /pageAgent/**
+    user.serviceId: hrm-user-service
+    user.path: /users/**
   ignored-services: "*"
   prefix: "/services"
   retryable: true
